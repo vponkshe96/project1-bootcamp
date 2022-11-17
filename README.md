@@ -1,4 +1,4 @@
-# Rocket Academy Coding Bootcamp: Project 1: Frontend App
+# Rocket Academy Coding Bootcamp: Project 1 - Frontend App
 
 https://bc.rocketacademy.co/1-frontend/1.p-frontend-app
 
