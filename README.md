@@ -2,14 +2,23 @@
 
 https://bc.rocketacademy.co/1-frontend/1.p-frontend-app
 
-## Available Scripts
+**Problem**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). In the project directory, you can run:
+For Project 1 I have developed a meeting tracking tool called **Rolodex** which is inspired by a problem my best friend faces. 
+- The problem is around meeting people.
+- The tools in status quo are either too complicated or ask for too much user info. 
+- This leads to people creating excel or Notion templates
+- Hence there is no easy way in status quo to document our interactions with people. 
+- Documentatiom is important as it helps us to recall the key points of discussions, enabling us to have more quality interactions in the future.
 
-### `npm start`
+**Solution**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Introducing Rolodex a tool which helps us easily document our meetings
+- React App consisting of 2 Components: Form and a Table
+- User fills in the form and the entry gets added to the Table
+- Table is meant to serve as a log of historical records
+- User cannot currently directly edit records from the table but can delete 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Tools Used**: HTML/CSS/JS built on React JS with MUI for styling
+
+
