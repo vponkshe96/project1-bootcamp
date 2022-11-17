@@ -1,19 +1,57 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
+  padding: 1.5rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-flow: column wrap;
+}
+
+.form-container {
+  border: 4px solid #1976d2;
+  padding: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 40px;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  font-family: "Helvetica";
+  text-align: center;
+  color: #1976d2;
+  font-size: 1rem;
+  margin-top: 20px;
+  padding: 12px 15px;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.table-container thead tr {
+  background-color: #1976d2;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.table-container th,
+.table-container td {
+  padding: 12px 15px;
+}
+
+.table-container tbody tr {
+  border-bottom: 1px solid #dddddd;
+  color: black;
+}
+
+.table-container tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.table-container tbody tr:last-of-type {
+  border-bottom: 2px solid #1976d2;
+}
+
+td .fullName {
+  font-weight: bold;
 }

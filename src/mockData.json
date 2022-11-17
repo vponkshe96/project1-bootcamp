@@ -1,0 +1,32 @@
+[
+  {
+    "fullName": "Steve Cohen ",
+    "meetingDate": "4/10/2021",
+    "meetingNotes": "Extremely Productive Meeting, bonded over hedge funds and financial markets, got connected to new investors",
+    "postMeetingAction": "Engage Actively"
+  },
+  {
+    "fullName": "Elizabeth Holmes",
+    "meetingDate": "10/11/2021",
+    "meetingNotes": "Horrible Meeting, ambitious but arrogant individual, her idea seems fraudulent",
+    "postMeetingAction": "Drop"
+  },
+  {
+    "fullName": "Lebron James",
+    "meetingDate": "04/05/2022",
+    "meetingNotes": "Decent Meeting, friendly and chatted over wide array of topics but not many common areas",
+    "postMeetingAction": "Maintain"
+  },
+    {
+    "fullName": "Paul Chan",
+    "meetingDate": "01/06/2022",
+    "meetingNotes": "Productive Meeting, introduced me to political contacts within the government",
+    "postMeetingAction": "Engage Actively"
+  },
+    {
+    "fullName": "Taylor Swift",
+    "meetingDate": "10/10/2022",
+    "meetingNotes": "Decent Meeting, enjoyed her music",
+    "postMeetingAction": "Maintain"
+  }
+]

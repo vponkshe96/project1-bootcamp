@@ -1,20 +1,33 @@
-import React from "react";
-import logo from "./logo.png";
 import "./App.css";
+import { Typography } from "@mui/material";
+import PersonAddIcon from "@mui/icons-material/PersonAdd";
+import Form from "./Components/Form";
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-        </header>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="app-container">
+      <Typography
+        variant="h4"
+        color="primary"
+        align="center"
+        gutterBottom
+        sx={{ fontWeight: "bold" }}
+      >
+        <PersonAddIcon fontSize="large" /> Rolodex
+      </Typography>
+      <Typography
+        variant="body1"
+        color="primary"
+        align="center"
+        gutterBottom
+        sx={{ fontWeight: "bold" }}
+      >
+        Never worry about forgetting who you met and what you spoke about ever
+        again
+      </Typography>
+      <Form />
+    </div>
+  );
 }
 
 export default App;
